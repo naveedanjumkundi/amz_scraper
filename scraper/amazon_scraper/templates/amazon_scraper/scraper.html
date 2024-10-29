@@ -1,0 +1,40 @@
+{% extends 'amazon_scraper/base.html' %}
+
+{% block content %}
+
+
+   <center>
+   	
+      {% for product in productsASIN %}
+         {{ product }}  <br>
+
+      {% endfor%}
+
+   </center>
+   <center>
+      
+
+      {% for name in productsnames %}
+         {{ name }}  <br>
+
+      {% endfor%}
+
+   </center>
+
+   <center>
+      
+
+      {% for image in productsimg %}
+         {{ image }}  <br>
+
+      {% endfor%}
+
+   </center>
+
+
+
+
+
+
+
+{% endblock %}

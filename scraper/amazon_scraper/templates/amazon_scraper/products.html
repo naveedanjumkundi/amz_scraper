@@ -1,0 +1,34 @@
+{% extends 'amazon_scraper/base.html' %}
+
+{% block content %}
+
+<h1>{{brand.name}}</h1>
+
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ASIN</th>
+      <th>Name</th>
+      <th>Image URL</th>
+  </thead>
+  <tbody>
+   {% for prod in products %}
+      <tr>
+         <td>{{ prod.asin }}</td>
+         <td>{{ prod.name }}</td>
+         <td>{{ prod.image }}</td>
+      </tr>
+      
+   {% endfor %}
+    
+  </tbody>
+</table>
+      
+             
+         
+      
+
+      
+
+{% endblock %}

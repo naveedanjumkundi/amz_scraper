@@ -1,0 +1,37 @@
+[4916] 28 Oct 15:03:33.307 * Redis 2.8.2104 (00000000/0) 64 bit, stand alone mode, port 6379, pid 4916 ready to start.
+[4916] 28 Oct 15:03:33.309 # Server started, Redis version 2.8.2104
+[4916] 28 Oct 15:03:33.310 * The server is now ready to accept connections on port 6379
+[4916] 28 Oct 15:18:34.051 * 1 changes in 900 seconds. Saving...
+[4916] 28 Oct 15:18:34.123 * Background saving started by pid 13912
+[4916] 28 Oct 15:18:34.333 # fork operation complete
+[4916] 28 Oct 15:18:34.537 * Background saving terminated with success
+[4916] 28 Oct 15:23:35.043 * 10 changes in 300 seconds. Saving...
+[4916] 28 Oct 15:23:35.131 * Background saving started by pid 8276
+[4916] 28 Oct 15:23:35.240 # fork operation complete
+[4916] 28 Oct 15:23:35.428 * Background saving terminated with success
+[4916] 28 Oct 15:31:25.638 * 10 changes in 300 seconds. Saving...
+[4916] 28 Oct 15:31:25.701 * Background saving started by pid 13856
+[4916] 28 Oct 15:31:25.932 # fork operation complete
+[4916] 28 Oct 15:31:26.156 * Background saving terminated with success
+[4916] 28 Oct 15:46:27.030 * 1 changes in 900 seconds. Saving...
+[4916] 28 Oct 15:46:27.118 * Background saving started by pid 13044
+[4916] 28 Oct 15:46:27.225 # fork operation complete
+[4916] 28 Oct 15:46:27.416 * Background saving terminated with success
+[4916] 29 Oct 13:25:35.449 * 1 changes in 900 seconds. Saving...
+[4916] 29 Oct 13:25:35.547 * Background saving started by pid 14576
+[4916] 29 Oct 13:25:35.756 # fork operation complete
+[4916] 29 Oct 13:25:35.950 * Background saving terminated with success
+[4916] 29 Oct 13:40:36.107 * 1 changes in 900 seconds. Saving...
+[4916] 29 Oct 13:40:36.203 * Background saving started by pid 680
+[4916] 29 Oct 13:40:36.405 # fork operation complete
+[4916] 29 Oct 13:40:36.584 * Background saving terminated with success
+[4916] 29 Oct 13:55:37.063 * 1 changes in 900 seconds. Saving...
+[4916] 29 Oct 13:55:37.157 * Background saving started by pid 13432
+[4916] 29 Oct 13:55:37.374 # fork operation complete
+[4916] 29 Oct 13:55:37.591 * Background saving terminated with success
+[4916] 29 Oct 14:53:14.512 * 1 changes in 900 seconds. Saving...
+[4916] 29 Oct 14:53:14.612 * Background saving started by pid 12552
+[4916] 29 Oct 14:53:14.829 # fork operation complete
+[4916] 29 Oct 14:53:15.021 * Background saving terminated with success
+[4916] 29 Oct 14:58:16.042 * 10 changes in 300 seconds. Saving...
+[4916] 29 Oct 14:58:16.145 * Background saving started by pid 1244

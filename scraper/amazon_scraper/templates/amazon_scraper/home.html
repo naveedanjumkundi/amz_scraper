@@ -1,0 +1,23 @@
+{% extends 'amazon_scraper/base.html' %}
+
+{% block content %}
+
+   <center>
+   	<h1>{{ name }}</h1>
+
+      
+
+      {% for company in Companies %}
+         
+         <a href="{% url 'product-view' company.id %}">{{ company }}  <br></a>
+
+      {% endfor%}
+
+   </center>
+
+
+
+
+
+
+{% endblock %}
