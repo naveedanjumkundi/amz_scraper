@@ -1,0 +1,15 @@
+Virtual Environment RemoteReps (with all the dependencies installed)
+install the redis server
+activate the virtual environment RemoteReps
+go to the directory scraper
+Make Migrations and migrate (py manage.py makemigrations, py manage.py migrate)
+Create superuser (py manage.py createsuperuser)
+run the server i,e py manage.py runserver
+run file scrape\redis=cli.exe
+In cmd run the command: "celery -A scraper worker -l info -P eventlet"
+Go to the http://127.0.0.1:8000/admin
+In Brands section add a company name to search for
+In Periodictask tab add a task name as "scraperz" with interval specifications
+Then run the selected task.
+Go to http://127.0.0.1:8000/
+Click on the brand for the list available products
